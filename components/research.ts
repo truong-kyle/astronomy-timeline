@@ -9,7 +9,7 @@ export const research = [
       "Filippelli, G. (2022). Climate Change and Life: The Complex Co-evolution of Climate and Life on Earth, and Beyond. ELSEVIER. ",
       "Lehmer, O. R., Catling, D. C., Buick, R., Brownlee, D. E., & Newport, S. (2020). Atmospheric co2 levels from 2.7 billion years ago inferred from Micrometeorite Oxidation. Science Advances, 6(4). https://doi.org/10.1126/sciadv.aay4644",
     ],
-    gap: "200",
+    gap: "[1000px]",
     image: "/Carbon_dioxide_3D_ball.png",
   },
 
@@ -34,16 +34,16 @@ export const research = [
     refs: [
       "Ray, L. L. (1992). The Great Ice Age. General Interest Publication. https://doi.org/10.3133/7000022 ",
     ],
-    gap: "96",
+    gap: "[1000px]",
     image: "/iceage.png",
   },
   {
     time: "About 4000",
     id: "civilization",
     title: "The First Civilization",
-    details: "",
-    refs: [""],
-    gap: "96",
+    details: "Sumerians were the pioneers of civilization, being the first in history to invent scripting. They built communities and city-states in what is known as the south part of modern day Iraq. They were also very technologically advanced, constructing irrigation canals and hydraulic structures.",
+    refs: ["Adamo, Nasrat & Al-Ansari, Nadhir. (2020). The Sumerians and the Akkadians: The Forerunners of the First Civilization (2900-2003BC). 10. 17-39. "],
+    gap: "0",
     image: "/sumerians.jpg",
   },
   {
@@ -51,7 +51,7 @@ export const research = [
     id: "spacerace",
     title: "The Space Race",
     details:
-      "Due to the rivalry in the cold war, the Soviet Union and United States ",
+      "Due to the rivalry in the cold war, the Soviet Union and United States decided that the Moon would provide a tactical advantage, and raced to be the first humans to land on it. The US took the victory when they sent Apollo 11 to the Moon including Buzz Aldrin, Neil Armstrong and Michael Collins in 1969.",
     refs: [
       "Launius, R. D. (2000). The historical dimension of space exploration: Reflections and possibilities. Space Policy, 16(1), 23–38. https://doi.org/10.1016/s0265-9646(99)00055-7 ",
     ],
