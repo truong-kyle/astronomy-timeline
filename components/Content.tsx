@@ -19,7 +19,7 @@ export default function Content() {
             refs={point.refs}
             image={point.image}
             />
-            <div className={`h-${point.gap}`}></div>
+            <div className={`h-${point.gap} text-black/0 cursor-default select-none`}>a</div>
             </>
         ))}
         <h1 className="text-2xl w-1/2 p-10 mt-10 bg-green-400/50 rounded-2xl">Today</h1>
