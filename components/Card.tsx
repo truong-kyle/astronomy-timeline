@@ -9,7 +9,6 @@ type CardProps = {
   details: string;
   id: string;
   refs: string[] | null;
-  gap: string | null;
   image: string;
 };
 
@@ -19,7 +18,6 @@ export default function Card({
   details,
   id,
   refs,
-  gap,
   image
 }: CardProps) {
   const [showSources, setShowSources] = useState(false);
@@ -31,10 +29,9 @@ export default function Card({
 
   return (
     <>
-    <div className={`h-${gap} w-full`} />
       <section
         id={id}
-        className={`flex flex-col justify-center w-1/2 h-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 transition-transform duration-300 ${
+        className={` flex flex-col justify-center w-1/2 h-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 transition-transform duration-300 ${
           flipped ? "rotate-y-180" : ""
         }`}
       >

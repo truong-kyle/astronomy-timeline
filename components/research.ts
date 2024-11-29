@@ -9,7 +9,7 @@ export const research = [
       "Filippelli, G. (2022). Climate Change and Life: The Complex Co-evolution of Climate and Life on Earth, and Beyond. ELSEVIER. ",
       "Lehmer, O. R., Catling, D. C., Buick, R., Brownlee, D. E., & Newport, S. (2020). Atmospheric co2 levels from 2.7 billion years ago inferred from Micrometeorite Oxidation. Science Advances, 6(4). https://doi.org/10.1126/sciadv.aay4644",
     ],
-    gap: "0",
+    gap: "200",
     image: "/Carbon_dioxide_3D_ball.png",
   },
 
