@@ -1,4 +1,3 @@
-import Card from "@/components/Card";
 import Content from "@/components/Content";
 import Menu from "@/components/Menu";
 import Title from "@/components/Title";
