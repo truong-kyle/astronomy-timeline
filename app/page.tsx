@@ -6,6 +6,7 @@ import { Space_Grotesk } from "next/font/google";
 export const metadata = {
   title: "Timeline Project",
   icon: "/world.ico",
+  description: "Final project for PHYS 1470 by Kyle Truong"
 };
 
 const spaceGrotesk = Space_Grotesk({
